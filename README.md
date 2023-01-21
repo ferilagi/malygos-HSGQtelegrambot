@@ -5,12 +5,7 @@ telegram bot for olt hsgq // bot telegram untuk olt hsgq (untuk sementara hanya 
 
 dibuat dengan Node.js
 
-**This project has a [Code of Conduct][].**
-
 ## Installasi
-
-Download directories contain a `SHASUMS256.txt` file with SHA checksums for the
-files.
 
 Download atau Clone dengan `download as zip` atau `git clone`:
 ```console
@@ -41,3 +36,39 @@ atau
 ```console
 $ npm start
 ```
+
+## Perintah
+
+Setelah aplikasi berjalan, buka aplikasi telegram lalu ketik perintah :
+```console
+/start
+```
+jika berhasil maka akan muncul balasan `Selamat Datang`.
+
+
+Untuk Inisialisasi, ketik perintah :
+```console
+/password
+```
+Setelah itu akan muncul masukkan password dan jawab dengan password
+yang telah anda masukkan di file `.env` pada bagian `PASS_CHAT`.
+jika berhasil maka akan muncul balasan `Authentikasi Berhasil`.
+
+Perintah untuk menampilkan info port dan onu:
+```console
+/info
+```
+
+Perintah untuk menampilkan detail onu:
+```console
+/onu {parameter}
+```
+untuk {parameter} bisa disikin dengan macaddress / nama onu contoh:
+```console
+/onu 00:1B:44:11:3A:B7
+```
+atau
+```console
+/onu modem-budi
+```
+
