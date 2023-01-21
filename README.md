@@ -64,13 +64,13 @@ Perintah untuk menampilkan detail onu:
 /onu {parameter}
 ```
 
-untuk {parameter} bisa disikin dengan macaddress / nama onu contoh:
+* untuk {parameter} bisa diisi dengan macaddress / nama onu contoh:
 
-/onu 00:1B:44:11:3A:B7
+    ** /onu 00:1B:44:11:3A:B7
 
-atau
+    ** atau
 
-/onu modem-budi
+    ** /onu modem-budi
 
 
 ## Semoga Aplikasi ini bermanfaat.
