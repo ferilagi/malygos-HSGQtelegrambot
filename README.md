@@ -43,7 +43,8 @@ Setelah aplikasi berjalan, buka aplikasi telegram lalu ketik perintah :
 ```console
 /start
 ```
-jika berhasil maka akan muncul balasan `Selamat Datang`.
+jika berhasil maka akan muncul balasan `Selamat Datang` namun jika muncul balasan.
+`anda belum terdaftar`, anda harus menginisialisasi terlebih dahulu
 
 
 Untuk Inisialisasi, ketik perintah :
@@ -53,6 +54,12 @@ Untuk Inisialisasi, ketik perintah :
 Setelah itu akan muncul masukkan password dan jawab dengan password
 yang telah anda masukkan di file `.env` pada bagian `PASS_CHAT`.
 jika berhasil maka akan muncul balasan `Authentikasi Berhasil`.
+
+Atau bisa dipersingkan dengan :
+```console
+/password {password yang ada di .ENV}
+```
+contoh `/password 12345678`
 
 Perintah untuk menampilkan info port dan onu:
 ```console

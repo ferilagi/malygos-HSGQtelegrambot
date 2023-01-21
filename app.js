@@ -22,11 +22,11 @@ bot.command('password', (ctx)=>{
         saveAuth(nama,telegramId)
 
         ctx.reply({
-            text: "Password Benar " + ctx.message.from.id +" "+ passLogin,
+            text: "Halo "+ctx.chat.first_name+ ", Password yang anda masukkan Benar, Silahkan memasukkan perintah yang tersedia",
         });
     } else {
         ctx.reply({
-            text: "Password Salah " + ctx.message.from.id +" "+ passLogin,
+            text: "Maaf "+ctx.chat.first_name+", Password Salah 🤭🤭🤭🤭",
         });
     }
 });
