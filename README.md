@@ -1,5 +1,5 @@
 # malygos-HSGQtelegrambot
-# Node.js
+## Semoga Aplikasi ini bermanfaat.
 
 telegram bot for olt hsgq // bot telegram untuk olt hsgq (untuk sementara hanya epon)
 
@@ -72,8 +72,9 @@ Perintah untuk menampilkan detail onu:
 
     * /onu modem-budi
 
+
+
 ## Untuk Docker / Container
 
 Belum ya masbro
 
-## Semoga Aplikasi ini bermanfaat.
