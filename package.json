@@ -1,0 +1,21 @@
+{
+  "name": "malygos-monitor-telegram",
+  "version": "1.0.0",
+  "description": "MalygosMonitor Telegram",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
