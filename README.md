@@ -102,6 +102,7 @@ Copy .env-example menjadi .env:
 ```console
 $ cp .env-example .env
 ```
+Ubah variable di `.env` agar sesuai dengan ipaddress, username, dan password olt anda.
 
 Build image aplikasi dengan perintah:
 ```console
