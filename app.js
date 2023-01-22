@@ -18,12 +18,17 @@ bot.command('password', (ctx)=>{
     if (passChat == passLogin) {
         const nama = ctx.chat.first_name;
         const telegramId = ctx.message.from.id;
-
-        saveAuth(nama,telegramId)
-
-        ctx.reply({
-            text: "Halo "+ctx.chat.first_name+ ", Password yang anda masukkan Benar, Silahkan memasukkan perintah yang tersedia",
-        });
+        const finding = findAuth(telegramId);
+        if (finding == true) {
+            ctx.reply({
+                text: "Anda telah melakukan inisialisai sebelumnya",
+            });
+        } else {
+            saveAuth(nama,telegramId);
+            ctx.reply({
+                text: "Halo "+ctx.chat.first_name+ ", Password yang anda masukkan Benar, Silahkan memasukkan perintah yang tersedia",
+            });
+        }
     } else {
         ctx.reply({
             text: "Maaf "+ctx.chat.first_name+", Password Salah 🤭🤭🤭🤭",
