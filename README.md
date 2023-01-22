@@ -71,14 +71,12 @@ Perintah untuk menampilkan detail onu:
 /onu {parameter}
 ```
 
-* untuk {parameter} bisa diisi dengan macaddress / nama onu contoh:
+* untuk {parameter} bisa diisi dengan Mac-Address / Nama Onu contoh:
 
-    *  macaddress
+    *  mac-address
         ```console
         /onu 00:1B:44:11:3A:B7
         ```
-
-    atau
 
     * nama onu
         ```console
@@ -87,7 +85,31 @@ Perintah untuk menampilkan detail onu:
 
 
 
+
 ## Untuk Docker / Container
 
-Belum ya masbro
+Download atau Clone dengan `download as zip` atau `git clone`:
+```console
+$ git clone ferilagi/malygos-HSGQtelegrambot
+```
+
+Masuk ke directory `malygos-HSGQtelegrambot`:
+```console
+$ cd malygos-HSGQtelegrambot
+```
+
+Copy .env-example menjadi .env:
+```console
+$ cp .env-example .env
+```
+
+Build image aplikasi dengan perintah:
+```console
+$ docker build -t HSGQtelegrambot .
+```
+
+Jalankan container dengan perintah:
+```console
+$ docker run HSGQtelegrambot
+```
 
