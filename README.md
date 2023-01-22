@@ -44,7 +44,7 @@ Setelah aplikasi berjalan, buka aplikasi telegram lalu ketik perintah :
 /start
 ```
 jika berhasil maka akan muncul balasan `Selamat Datang` namun jika muncul balasan.
-`anda belum terdaftar`, anda harus menginisialisasi terlebih dahulu
+`anda belum terdaftar` atau `Maaf Anda bukan anggota`, anda harus menginisialisasi terlebih dahulu
 
 
 Untuk Inisialisasi, ketik perintah :
